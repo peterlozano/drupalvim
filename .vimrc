@@ -9,7 +9,7 @@ set incsearch               "Find as you type
 set ignorecase              "Ignore case in search
 set scrolloff=2             "Number of lines to keep above/below cursor
 set smartcase               "Only ignore case when all letters are lowercase
-set number                  "Show line numbers
+"set number                  "Show line numbers
 set wildmode=longest,list   "Complete longest string, then list alternatives
 set pastetoggle=<F2>        "Toggle paste mode
 set fileformats=unix        "Use Unix line endings
