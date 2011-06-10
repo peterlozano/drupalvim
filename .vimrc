@@ -42,16 +42,7 @@ nn [5C <C-W>w
 nn [5R <C-W>W
 
 "Set filetype for Drupal PHP files.
-if has("autocmd")
-  augroup module
-    autocmd BufRead,BufNewFile *.module set filetype=php
-    autocmd BufRead,BufNewFile *.php set filetype=php
-    autocmd BufRead,BufNewFile *.install set filetype=php
-    autocmd BufRead,BufNewFile *.inc set filetype=php
-    autocmd BufRead,BufNewFile *.profile set filetype=php
-    autocmd BufRead,BufNewFile *.theme set filetype=php
-  augroup END
-endif
+set filetype=php
 syntax on
 
 "Custom key mapping
